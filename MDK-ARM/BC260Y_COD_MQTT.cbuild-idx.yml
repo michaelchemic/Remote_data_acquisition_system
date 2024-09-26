@@ -1,0 +1,9 @@
+build-idx:
+  generated-by: csolution version 2.4.0
+  csolution: BC260Y_COD_MQTT.csolution.yml
+  cprojects:
+    - cproject: BC260Y_COD_MQTT.cproject.yml
+  cbuilds:
+    - cbuild: BC260Y_COD_MQTT+BC260YCODMQTT.cbuild.yml
+      project: BC260Y_COD_MQTT
+      configuration: +BC260YCODMQTT

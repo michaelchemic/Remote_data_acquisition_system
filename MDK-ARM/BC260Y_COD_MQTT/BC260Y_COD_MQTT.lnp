@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"bc260y_cod_mqtt\startup_stm32f103xb.o"
+"bc260y_cod_mqtt\main.o"
+"bc260y_cod_mqtt\gpio.o"
+"bc260y_cod_mqtt\usart.o"
+"bc260y_cod_mqtt\stm32f1xx_it.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_msp.o"
+"bc260y_cod_mqtt\bc260y.o"
+"bc260y_cod_mqtt\cod.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_gpio_ex.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_tim.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_tim_ex.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_uart.o"
+"bc260y_cod_mqtt\stm32f1xx_hal.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_rcc.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_rcc_ex.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_gpio.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_dma.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_cortex.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_pwr.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_flash.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_flash_ex.o"
+"bc260y_cod_mqtt\stm32f1xx_hal_exti.o"
+"bc260y_cod_mqtt\system_stm32f1xx.o"
+--strict --scatter "BC260Y_COD_MQTT\BC260Y_COD_MQTT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BC260Y_COD_MQTT.map" -o BC260Y_COD_MQTT\BC260Y_COD_MQTT.axf

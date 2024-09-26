@@ -1,0 +1,4 @@
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT/BC260YCODMQTT/CMakeFiles/database.dir
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT/BC260YCODMQTT/CMakeFiles/BC260Y_COD_MQTT.dir
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT/BC260YCODMQTT/CMakeFiles/edit_cache.dir
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT/BC260YCODMQTT/CMakeFiles/rebuild_cache.dir

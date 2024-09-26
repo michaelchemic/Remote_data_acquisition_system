@@ -1,0 +1,13 @@
+# CMSIS Build Audit File generated on 2024-09-26T22:43:08
+
+# Project Description File: c:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/BC260Y_COD_MQTT+BC260YCODMQTT.cprj
+
+# Toolchain Configuration File: C:/Users/Michael_Chemic/AppData/Roaming/Code/User/globalStorage/ms-vscode.vscode-embedded-tools/vcpkg/root/downloads/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.4.0/etc/AC6.6.16.2.cmake
+
+# Package: ARM::CMSIS@5.9.0
+  Location: C:\Users\Michael_Chemic\AppData\Local\arm\packs/ARM/CMSIS/5.9.0/
+
+  * Component: ARM::CMSIS:CORE@5.6.0
+
+# Package: Keil::STM32F1xx_DFP@2.4.1
+  Location: C:\Users\Michael_Chemic\AppData\Local\arm\packs/Keil/STM32F1xx_DFP/2.4.1/
