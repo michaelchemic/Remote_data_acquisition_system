@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\STM32设计\BC28资料\BC26单模块资料\带单片机的开发板资料\08_STM32代码\02_BC26发(模拟)温湿度例程DUP传数据\USER\Test.uvproj
+Project File Date:  04/02/2020
+
+<h2>Output:</h2>
+Load "E:\\STM32设计\\BC28资料\\BC26单模块资料\\带单片机的开发板资料\\08_STM32代码\\02_BC26发(模拟)温湿度例程DUP传数据\\USER\\Test.axf" 
+Erase Failed!
+Load "E:\\STM32设计\\BC28资料\\BC26单模块资料\\带单片机的开发板资料\\08_STM32代码\\02_BC26发(模拟)温湿度例程DUP传数据\\USER\\Test.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=8620 RO-data=268 RW-data=68 ZI-data=1948  
+FromELF: creating hex file...
+".\Test.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\STM32设计\\BC28资料\\BC26单模块资料\\带单片机的开发板资料\\08_STM32代码\\02_BC26发(模拟)温湿度例程DUP传数据\\USER\\Test.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

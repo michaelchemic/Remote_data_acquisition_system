@@ -1,0 +1,41 @@
+Dependencies for Project 'Test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: <unknown>
+F (.\main.c)(0x606E6AB6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\WDG -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\TIMER -I..\HARDWARE\RS485 -I..\HARDWARE\BC260Y -I..\HARDWARE\DHT11-I E:\STM32设计\BC28资料\BC260Y单模块资料\08_单片机STM32代码\02_BC260Y发(模拟)温湿度例程TCP传数据\USER\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\HARDWARE\LED\led.h)(0x5E859B82)
+I (..\SYSTEM\sys\sys.h)(0x5837B94B)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+F (.\stm32f10x_it.c)(0x4EBEACB0)()
+F (.\system_stm32f10x.c)(0x5726A20F)()
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_can.c)(0x505AC48C)()
+F (..\STM32F10x_FWLib\src\stm32f10x_cec.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x503A0392)()
+F (..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5039863E)()
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)()
+F (..\STM32F10x_FWLib\src\stm32f10x_i2c.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)()
+F (..\STM32F10x_FWLib\src\stm32f10x_wwdg.c)(0x4D783BB4)()
+F (..\CORE\core_cm3.c)(0x4C0C587E)()
+F (..\CORE\startup_stm32f10x_md.s)(0x594F579F)()
+F (..\HARDWARE\LED\led.c)(0x6066BCC7)()
+F (..\HARDWARE\WDG\wdg.c)(0x5694BF68)()
+F (..\HARDWARE\DHT11\dht11.c)(0x5E859D13)()
+F (..\HARDWARE\BC260Y\BC260Y.c)(0x6062F3D2)()
+F (..\SYSTEM\delay\delay.c)(0x58C218DA)()
+F (..\SYSTEM\sys\sys.c)(0x5837B96F)()
+F (..\SYSTEM\usart\usart.c)(0x5E859CEB)()

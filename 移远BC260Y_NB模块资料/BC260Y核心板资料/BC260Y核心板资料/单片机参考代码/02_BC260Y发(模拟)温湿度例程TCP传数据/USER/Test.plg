@@ -1,0 +1,20 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\STM32设计\BC28资料\BC26单模块资料\资料包\08_STM32代码\01_BC26发(模拟)温湿度例程DUP传数据\USER\Test.uvproj
+Project File Date:  12/26/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling BC26.c...
+linking...
+Program Size: Code=8228 RO-data=268 RW-data=68 ZI-data=1948  
+FromELF: creating hex file...
+".\Test.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=8228 RO-data=268 RW-data=68 ZI-data=1948  
+FromELF: creating hex file...
+".\Test.axf" - 0 Errors, 0 Warning(s).

@@ -1,0 +1,7 @@
+AT+QMTCFG=ALIAUTH,0,"k1swohbzYjV","COD1","f82020ff53e1dd7afd10c41e0c084826"
+AT+QMTOPEN=0,"iot-as-mqtt.cn-shanghai.aliyuncs.com",1883
+AT+QMTCONN=0,"COD1"
+AT+QMTSUB=0,1,"/k1swohbzYjV/COD1/user/get",0
+AT+QMTSUB=0,1,"k1swohbzYjV/COD1/user/update",0
+AT+QMTPUB=0,0,0,0,"k1swohbzYjV/COD1/user/update"
+This is test data, hello MQTT.
