@@ -6,19 +6,21 @@
 
 void Clear_Buffer(void); // 清空缓存
 void BC260Y_Init(void);
-void BC260Y_PDPACT(void);
-void BC260Y_ConTCP(void);
-void BC260Y_CreateTCPSokcet(void);
-void BC260Y_RECData(void);
-void BC260Y_Senddata(uint8_t *len, uint8_t *data);
-void BC260Y_Senddatahex(uint8_t *len, uint8_t *data);
-void BC260Y_CreateSokcet(void);
 void Clear_Buffer(void);
-void BC260Y_ChecekConStatus(void);
 void MQTT_Init(void);
-void aliyunMQTT_PUBdata(uint8_t temp, uint8_t humi);
-uint8_t Mqttaliyun_Savedata(uint8_t *t_payload, uint8_t temp, uint8_t humi);
-void MQTT_PUBdata(uint8_t temp, uint8_t humi);
+void aliyunMQTT_PUBdata(uint16_t cod, uint8_t temp, uint8_t ntu);
+uint16_t Mqttaliyun_Savedata(uint8_t * t_payload, uint16_t cod, uint8_t temp, uint8_t ntu);
+//uint8_t Mqttaliyun_Savedata(uint8_t *t_payload, uint8_t temp, uint8_t humi);
+//void MQTT_PUBdata(uint8_t temp, uint8_t humi);
+// void BC260Y_PDPACT(void);
+// void BC260Y_ConTCP(void);
+// void BC260Y_CreateTCPSokcet(void);
+// void BC260Y_RECData(void);
+// void BC260Y_Senddata(uint8_t *len, uint8_t *data);
+// void BC260Y_Senddatahex(uint8_t *len, uint8_t *data);
+// void BC260Y_CreateSokcet(void);
+// void BC260Y_ChecekConStatus(void);
+
 typedef struct
 {
     uint8_t CSQ;

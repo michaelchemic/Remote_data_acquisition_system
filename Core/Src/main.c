@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "cod.h"
+#include "bc260y.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,6 +102,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+        // 发�?�读取命令，读取寄存�?0x0000，读�?3个寄存器
+    Modbus_Read_Register(&huart3, 0x0000, 0x0003);
+
+    // 接收并处理响�?
+    Modbus_Receive_Response(&huart3);
   }
   /* USER CODE END 3 */
 }

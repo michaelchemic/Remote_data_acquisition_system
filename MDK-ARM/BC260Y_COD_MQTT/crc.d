@@ -1,6 +1,5 @@
-bc260y_cod_mqtt/stm32f1xx_hal_pwr.o: \
-  ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c \
-  ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
+bc260y_cod_mqtt/crc.o: ..\Core\Src\crc.c ..\Core\Inc\crc.h \
+  ..\Core\Inc\main.h ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h \
   ..\Core\Inc\stm32f1xx_hal_conf.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h \
   ..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h \
