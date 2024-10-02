@@ -1,0 +1,14 @@
+# Target labels
+ BC260Y_COD_MQTT+BC260YCODMQTT
+# Source files and their labels
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/CMakeFiles/BC260Y_COD_MQTT+BC260YCODMQTT
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/CMakeFiles/BC260Y_COD_MQTT+BC260YCODMQTT.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/CMakeFiles/BC260Y_COD_MQTT+BC260YCODMQTT-complete.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-build.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-configure.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-download.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-install.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-mkdir.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-patch.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-test.rule
+C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT+BC260YCODMQTT/src/BC260Y_COD_MQTT+BC260YCODMQTT-stamp/BC260Y_COD_MQTT+BC260YCODMQTT-update.rule

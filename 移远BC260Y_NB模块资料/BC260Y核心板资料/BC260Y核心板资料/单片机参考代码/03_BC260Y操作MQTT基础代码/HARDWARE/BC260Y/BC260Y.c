@@ -109,10 +109,10 @@ void MQTT_Init(void)
 
   printf("AT+QMTOPEN=0,\"47.92.146.210\",1883\r\n"); //
   delay_ms(300);
-  strx = strstr((const char *)RxBuffer, (const char *)"+QMTOPEN: 0,0"); // 看下返回状态
+  strx = strstr((const char *)RxBuffer, (const char *)"OK"); // 看下返回状态
   while (strx == NULL)
   {
-    strx = strstr((const char *)RxBuffer, (const char *)"+QMTOPEN: 0,0"); // 确认返回值正确
+    strx = strstr((const char *)RxBuffer, (const char *)"OK"); // 确认返回值正确
   }
   Clear_Buffer();
   printf("AT+QMTCONN=0,\"clientExample_1987\"\r\n"); // 去登录MQTT服务器

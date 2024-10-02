@@ -1,13 +1,13 @@
 # ninja log v6
-225	332	7494107168717463	C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/out/BC260Y_COD_MQTT/BC260YCODMQTT/BC260Y_COD_MQTT.axf	9e2a3cc6db832418
+219	531	7494591163958111	C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/out/BC260Y_COD_MQTT/BC260YCODMQTT/BC260Y_COD_MQTT.axf	9e2a3cc6db832418
 6	1041	7494104548340926	CMakeFiles/BC260Y_COD_MQTT.dir/088f43ca194bf5b881ff46a511e1e943/Remote_data_acquisition_system/MDK-ARM/startup_stm32f103xb.o	d0a242fe5212246c
-6	214	7494107166531949	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/BC260Y.o	1f566a9bbddf6359
+6	219	7494591161832785	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/BC260Y.o	1f566a9bbddf6359
 595	1026	7494104554235043	CMakeFiles/BC260Y_COD_MQTT.dir/f1af4acf9554ea1e3de4d9221a7ada0e/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o	420b899012f799aa
 129	639	7494104549576459	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/gpio.o	550249b50c9e15cf
 89	595	7494104549176365	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/COD.o	6c0841b93a229e8d
 220	721	7494104550484167	CMakeFiles/BC260Y_COD_MQTT.dir/088f43ca194bf5b881ff46a511e1e943/Remote_data_acquisition_system/Core/Src/stm32f1xx_hal_msp.o	b5fe93ab851a0b7a
 368	852	7494104551958522	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/usart.o	bf889a793963d617
-39	224	7494107166867167	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/main.o	c1a6b03fbb59e690
+41	208	7494591162172854	CMakeFiles/BC260Y_COD_MQTT.dir/C_/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/Core/Src/main.o	c1a6b03fbb59e690
 853	1067	7494104556801545	CMakeFiles/BC260Y_COD_MQTT.dir/f1af4acf9554ea1e3de4d9221a7ada0e/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o	6612fb11c86556d8
 274	765	7494104551018313	CMakeFiles/BC260Y_COD_MQTT.dir/088f43ca194bf5b881ff46a511e1e943/Remote_data_acquisition_system/Core/Src/stm32f1xx_it.o	2204f4b5df65452c
 981	1336	7494104558092085	CMakeFiles/BC260Y_COD_MQTT.dir/f1af4acf9554ea1e3de4d9221a7ada0e/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o	d260e7f392335643
@@ -25,3 +25,5 @@
 765	1030	7494104555936338	CMakeFiles/BC260Y_COD_MQTT.dir/f1af4acf9554ea1e3de4d9221a7ada0e/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o	301384c2e09616a7
 939	1113	7494104557673958	CMakeFiles/BC260Y_COD_MQTT.dir/f1af4acf9554ea1e3de4d9221a7ada0e/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o	43b1ba8d8a6ad550
 4	77	7494104298218044	CMakeFiles/database	eca7de4253e1c655
+5	78	7494597740832906	CMakeFiles/database	eca7de4253e1c655
+5	78	7494597740832906	C:/Users/Michael_Chemic/Desktop/BC260Y_COD_MQTT/Remote_data_acquisition_system/MDK-ARM/tmp/BC260Y_COD_MQTT/BC260YCODMQTT/CMakeFiles/database	eca7de4253e1c655

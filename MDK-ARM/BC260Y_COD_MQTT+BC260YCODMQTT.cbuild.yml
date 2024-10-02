@@ -1,5 +1,5 @@
 build:
-  generated-by: csolution version 2.4.0
+  generated-by: csolution version 2.6.0
   solution: BC260Y_COD_MQTT.csolution.yml
   project: BC260Y_COD_MQTT.cproject.yml
   context: BC260Y_COD_MQTT+BC260YCODMQTT
@@ -89,8 +89,12 @@ build:
     - RTE/_BC260YCODMQTT
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/5.9.0/CMSIS/Core/Include
     - ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  add-path-asm:
+    - RTE/_BC260YCODMQTT
+    - ${CMSIS_PACK_ROOT}/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+    - ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Device/Include
   output-dirs:
-    intdir: tmp/BC260Y_COD_MQTT/BC260YCODMQTT
+    intdir: tmp
     outdir: out/BC260Y_COD_MQTT/BC260YCODMQTT
     rtedir: RTE
   output:

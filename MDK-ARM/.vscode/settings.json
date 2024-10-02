@@ -10,5 +10,14 @@
         "string.h": "c",
         "stm32f1xx_hal_uart.h": "c",
         "stdio.h": "c"
-    }
+    },
+    "cmsis-csolution.actions": [
+        {
+            "path": "BC260Y_COD_MQTT.csolution.yml",
+            "target": "BC260YCODMQTT",
+            "config": {
+                "run": "Flash Device"
+            }
+        }
+    ]
 }
