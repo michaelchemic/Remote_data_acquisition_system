@@ -45,9 +45,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-// uint16_t cod =0; //cod 值，最大500
-// uint8_t temp=0;//温度值，最大100
-// uint8_t ntu=0;//ntu浊度值，最大200
+
 extern float cod;
 extern float temp;
 extern float ntu;
@@ -96,13 +94,14 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART2_UART_Init();
   MX_USART3_UART_Init();
+  
   /* USER CODE BEGIN 2 */
-  BC260Y_Init();
-  MQTT_Init();
+  BC260Y_Init();//NB-IoT模块初始化
+  MQTT_Init();//MQTT初始化
 
   // 启动 Modbus 中断接收,阻塞式接收数据错位。
   Modbus_Receive_Init(&huart3);
-//  aliyunMQTT_PUBdata(cod, temp, ntu); // 数据发布到阿里云MQTT服务器
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -116,9 +115,8 @@ int main(void)
     Modbus_Read_Register(&huart3, 0x0000, 0x0003); // 数据发送到传感器
 
     aliyunMQTT_PUBdata(cod, temp, ntu);            // 数据发布到阿里云MQTT服务器
-    //HAL_Delay(600000);                             // 10分钟发一次
       
-    HAL_Delay(60000);//一分钟发一次
+    HAL_Delay(600000);//十分钟发一次
   }
   /* USER CODE END 3 */
 }
